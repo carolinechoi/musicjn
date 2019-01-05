@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans');
+page-vision {
+  h1 {
+    color: black;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  .feature-picture {
+    margin-top: 4em;
+  }
+
+  .button-wrapper {
+    position: absolute;
+    bottom: 5em;
+    // text-align: center;
+    margin-left: 6vw;
+
+
+    button {
+      letter-spacing: 3px;
+      width: 66vw;
+      // font-weight: bold;
+      // width: 100%;
+    }
+}
+
+.camera-loader {
+  margin-top: 20vh;
+}
+
+.camera-loader-subtitle {
+  font-weight: 200;
+  text-shadow: -1px -1px 1px #FCAA7B;
+  text-align: center;
+  font-family: 'Fjalla One';
+}
+
+}

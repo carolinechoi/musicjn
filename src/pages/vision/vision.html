@@ -1,0 +1,39 @@
+<ion-content scroll="false" no-bounce padding>
+  <div class="border-wrapper">
+    <div class="content-container">
+      <h1>
+        MUSICJN
+      </h1>
+
+      <img class="feature-picture"
+        src="assets/imgs/sound.gif">
+
+      <ion-row>
+        <ion-col class="button-wrapper">
+          <button ion-button outline color="secondary" icon-start (tap)="captureAndUpload()">GET STARTED</button>
+   <ion-col *ngIf="result$ | async as result">
+
+          <button *ngIf="result.dominantEmotion === 'HAPPY'" ion-button full [navPush]="goHappy">
+    LOAD PLAYLIST
+          </button> 
+
+          <button *ngIf="result.dominantEmotion !== 'HAPPY'" ion-button full [navPush]="goSad">
+    LOAD PLAYLIST
+          </button>
+        
+          </ion-col>
+      </ion-col>
+      </ion-row>
+    </div>
+  </div>
+</ion-content>
+
+<!-- <ion-content class="camera-page" padding>
+  <div class="border-wrapper">
+    <div class="content-container">
+      <img class="camera-loader" src="assets/imgs/loader.svg">
+      <h2 class="camera-loader-subtitle">Analysing your picture...</h2>
+    </div>
+  </div>
+</ion-content> -->
+

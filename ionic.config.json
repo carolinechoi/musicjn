@@ -1,0 +1,7 @@
+{
+  "name": "outsidehx",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

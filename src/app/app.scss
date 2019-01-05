@@ -1,0 +1,45 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans');
+
+ion-app ion-content {
+  font-family: 'Open Sans', sans-serif;
+
+  h1, h2, h3, h4, button {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase !important;
+  }
+
+  .border-wrapper {
+    border: 3px solid black;
+    box-shadow: -5px -5px 5px 0px #FCAA7B;
+    margin: 0.3em;
+    margin-left: 6px;
+    width: 90vw;
+    height: 92vh;
+    margin-top: 23px;
+  }
+
+  .content-container {
+    margin-top: 3vh;
+
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,30 @@
+page-home {
+  h1 {
+    color: black;
+    font-size: 3.0em;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  .feature-picture {
+    margin-top: 4em;
+  }
+
+  .button-wrapper {
+    position: absolute;
+    bottom: 4em;
+    // text-align: center;
+    margin-left: 6vw;
+
+
+    button {
+      letter-spacing: 3px;
+      width: 66vw;
+      // font-weight: bold;
+      // width: 100%;
+    }
+}
+
+
+}
