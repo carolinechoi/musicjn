@@ -1,6 +1,6 @@
 # Music JN
 
-An app that uses the Google Cloud Vision API and Universal Music Group API to suggests playlists to the User. The User will take a photo of the setting and a Firebase Database will store the image, labeling and defining certain emotions or objects. It will then push a playlist with suggested songs.
+An app that uses the Google Cloud Vision API and Universal Music Group API to suggests playlists to the User. The User will take a photo of the setting and a Firebase Database will store the image after passing through Cloud Vision, labeling and defining certain emotions or objects. It will then push a playlist with suggested songs.
 
 App is built on Ionic framework, v. 3.
 
