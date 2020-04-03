@@ -9,5 +9,5 @@ Created under 24 hours at the 2018 Outside Hacks, the official Outside Lands Hac
 **Note:** 
 This app was created with APIs provided by Universal Music Group under specific circumstances and therefore cannot be recreated without explicit permission from UMG.
 
-![alt text](https://drive.google.com/file/d/182I7k50-Ty1axekvRIFrHU_A28VRqDTS/view?usp=drivesdk)
+
 
